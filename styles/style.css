@@ -140,3 +140,35 @@ svg {
   margin-left: 150px;
   margin-right: 150px;
 }
+
+/* About css */
+
+.img-logo {
+  width: 70%;
+  height: auto;
+  border: 1px solid #d3d3d3;
+}
+
+.bg-last-pic-1 {
+  background-image: url(/imgs/nvidia-pic1.png);
+  background-size: cover;
+  position: relative;
+  height: 200px;
+}
+
+.bg-last-pic-2 {
+  background-image: url(/imgs/nvidia-pic2.png);
+  background-size: cover;
+  position: relative;
+  height: 200px;
+}
+
+.bg-red {
+  z-index: 9999;
+  background: rgba(255, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
