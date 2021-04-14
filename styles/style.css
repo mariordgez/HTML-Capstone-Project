@@ -13,7 +13,8 @@ a {
 }
 
 .bg-topsection {
-  background-image: url("/imgs/4907157.jpg");
+  background-image: url(/imgs/4907157.jpg);
+  background-image: url(imgs\4907157.jpg);
   background-size: cover;
 }
 
@@ -52,7 +53,7 @@ h2 {
 }
 
 .bg-mainProgram {
-  background-image: url("/imgs/background-square.JPG");
+  background-image: url(/imgs/background-square.JPG);
   background-color: #ccc;
 }
 
