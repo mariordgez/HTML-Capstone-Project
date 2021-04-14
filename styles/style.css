@@ -1,0 +1,64 @@
+@font-face {
+  font-family: cocogoose;
+  src: url("fonts\Cocogoose Pro-trial.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: lato;
+  src: url("fonts\Lato-Black.ttf") format("truetype");
+}
+
+h1 {
+  font-family: cocogoose, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #dd240f;
+  color: rgba(221, 36, 15, 0.8);
+}
+
+h2 {
+  font-family: lato, sans-serif;
+  color: #ec5242;
+}
+
+.bg-gray {
+  background-color: #f5f5f5;
+}
+
+.black {
+  color: #272a31;
+}
+
+.orange {
+  color: #ec4252;
+}
+
+.gray {
+  color: #d3d3d3;
+}
+
+.white {
+  color: white;
+}
+
+.bg-mainProgram {
+  background-image: url("/imgs/background-square.JPG");
+  background-color: #ccc;
+}
+
+.margin-top {
+  margin-top: -15px;
+}
+
+.img1 {
+  height: auto;
+  width: 50px;
+}
+
+.bg-darkgray {
+  background: rgba(135, 136, 135, 0.3);
+}
+
+.opacity {
+  opacity: 1;
+}
