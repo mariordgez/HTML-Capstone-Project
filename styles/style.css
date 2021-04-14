@@ -172,3 +172,9 @@ svg {
   right: 0;
   top: 0;
 }
+
+/* TIckets css */
+
+.rounded-4 {
+  border-radius: 13px;
+}
