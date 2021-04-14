@@ -8,6 +8,11 @@
   src: url("fonts\Lato-Black.ttf") format("truetype");
 }
 
+.bg-topsection {
+  background-image: url("/imgs/4907157.jpg");
+  background-size: cover;
+}
+
 h1 {
   font-family: cocogoose, sans-serif;
   font-weight: 700;
@@ -19,6 +24,7 @@ h1 {
 h2 {
   font-family: lato, sans-serif;
   color: #ec5242;
+  font-size: 20px;
 }
 
 .bg-gray {
@@ -30,7 +36,7 @@ h2 {
 }
 
 .orange {
-  color: #ec4252;
+  color: #ec5242;
 }
 
 .gray {
@@ -61,4 +67,57 @@ h2 {
 
 .opacity {
   opacity: 1;
+}
+
+.btn-orange {
+  background-color: #ec5242;
+  color: white;
+}
+
+.img-container {
+  width: 150px;
+  height: 150px;
+}
+
+.features-img-1 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  z-index: 0;
+}
+
+.features-img-2 {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  z-index: 9999;
+  filter: grayscale(100%);
+}
+
+h3 {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.small-txt {
+  font-size: 0.8rem;
+}
+
+.px-6 {
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+.bg-footer {
+  background-color: #414141;
+}
+
+svg {
+  fill: white;
+  width: 75px;
+  height: auto;
 }
