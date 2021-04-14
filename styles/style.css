@@ -8,6 +8,10 @@
   src: url("fonts\Lato-Black.ttf") format("truetype");
 }
 
+a {
+  text-decoration: none;
+}
+
 .bg-topsection {
   background-image: url("/imgs/4907157.jpg");
   background-size: cover;
@@ -16,7 +20,7 @@
 h1 {
   font-family: cocogoose, sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 48px;
   color: #dd240f;
   color: rgba(221, 36, 15, 0.8);
 }
@@ -24,7 +28,7 @@ h1 {
 h2 {
   font-family: lato, sans-serif;
   color: #ec5242;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .bg-gray {
@@ -120,4 +124,19 @@ svg {
   fill: white;
   width: 75px;
   height: auto;
+}
+
+.svg-black {
+  fill: black;
+  width: 75px;
+  height: auto;
+}
+
+.btn-border {
+  border: solid 3px #ec4252;
+}
+
+.mx-md-6 {
+  margin-left: 150px;
+  margin-right: 150px;
 }

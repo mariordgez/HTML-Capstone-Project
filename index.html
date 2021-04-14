@@ -18,11 +18,68 @@
 <body>
 <!--Start Header section-->
     <header>
-        <nav id="navbarMobile" class="navbar navbar-light bg-topsection pb-5">
+        <nav id="navbarMobile" class="navbar navbar-light bg-topsection pb-5 d-md-none">
             <div class="container-fluid">
                 <a href="#" title="bars" class="text-decoration-none navbar-brand">
                     <i class="fas fa-bars"></i>
                 </a>    
+            </div>
+        </nav>
+        <nav id="navbarDesktop1" class="navbar bg-dark py-0 d-none d-md-block">
+            <div class="container-fluid">
+                <nav class="container navbar navbar-dark bg-dark d-flex justify-content-end">
+                    <div class="navbar-item mx-2">
+                        <a title="facebook" href="#"><i class="fab fa-facebook-f white"></i></a>
+                    </div>
+                    <div class="navbar-item mx-2">
+                        <a title="Twitter" href="#"><i class="fab fa-twitter white"></i></a>
+                    </div>
+                    <div class="navbar-item mx-2">
+                        <a title="Twitter" href="#"><span class="white">Logout</span></a>
+                    </div>
+                    <div class="navbar-item mx-2">
+                        <a title="Twitter" href="#"><span class="white">My page</span></a>
+                    </div>
+                    <div class="navbar-item mx-2">
+                        <a title="Twitter" href="#"><span class="white">Spanish</span></a>
+                    </div>
+                    <!-- Navbar content -->
+                </nav>
+            </div>
+        </nav>
+        <nav id="navbarDesktop2" class="navbar bg-light py-0 d-none d-md-block">
+            <div class="container-fluid">
+                <nav class="container navbar navbar-dark bg-light">
+                    <div class="navbar-item ms-2 me-1">
+                        <a title="facebook" href="#"><svg class="global-footer__logo svg-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 407.8 1000 184.4" enable-background="new 0 407.8 1000 184.4" xml:space="preserve">
+                            <title>NVIDIA</title>
+                            <g id="nvidia-logo-1">
+                                <path d="M987.1 555.7v-2.8h1.7c0.9 0 2.3 0.1 2.3 1.2 0 1.2-0.7 1.5-1.8 1.5H987.1M987.1 557.6h1.2l2.8 4.8h3l-3.1-5c1.5-0.1 2.9-0.8 2.9-3 0-2.7-1.8-3.5-4.9-3.5h-4.4v11.5h2.6L987.1 557.6M1000 556.7c0-6.8-5.2-10.7-11.1-10.7 -5.8 0-11.1 3.9-11.1 10.7 0 6.8 5.2 10.7 11.1 10.7S1000 563.5 1000 556.7M996.8 556.7c0 4.9-3.6 8.2-7.9 8.2l0 0c-4.4 0-7.9-3.3-7.9-8.2 0-4.9 3.6-8.2 7.9-8.2C993.2 548.6 996.8 551.9 996.8 556.7z"></path>
+                                <path d="M593.2 442.7v121.1h34.2V442.7H593.2zM324.4 442.5v121.2h34.5v-94.1l26.9 0.1c8.8 0 15 2.2 19.2 6.7 5.4 5.7 7.6 15.1 7.6 32v55.3H446v-66.9c0-47.8-30.5-54.3-60.2-54.3C385.8 442.5 324.4 442.5 324.4 442.5zM648.3 442.7v121.1h55.4c29.5 0 39.2-4.9 49.6-15.9 7.4-7.7 12.1-24.7 12.1-43.3 0-17-4-32.2-11.1-41.7 -12.5-16.9-30.8-20.2-58.1-20.2H648.3zM682.2 469h14.7c21.3 0 35.1 9.5 35.1 34.4 0 24.8-13.7 34.4-35.1 34.4h-14.7V469zM544 442.7l-28.5 95.9 -27.3-95.9h-36.9l39 121.1h49.2l39.3-121.1H544zM781.4 563.7h34.2v-121h-34.2V563.7zM877.2 442.7l-47.7 121h33.7l7.6-21.3h56.5l7.2 21.3h36.6l-48.2-121H877.2zM899.4 464.8l20.7 56.6H878L899.4 464.8z"></path>
+                                <path d="M103.9 462.8v-16.6c1.6-0.1 3.3-0.2 4.9-0.2 45.6-1.4 75.4 39.1 75.4 39.1s-32.2 44.8-66.8 44.8c-5 0-9.4-0.8-13.4-2.2v-50.5c17.7 2.2 21.3 10 32 27.7l23.7-20c0 0-17.3-22.7-46.5-22.7C110 462.3 106.9 462.5 103.9 462.8M103.9 407.8v24.8c1.6-0.1 3.3-0.2 4.9-0.3 63.3-2.2 104.6 51.9 104.6 51.9s-47.4 57.7-96.7 57.7c-4.5 0-8.7-0.4-12.7-1.1v15.4c3.4 0.4 7 0.7 10.6 0.7 46 0 79.2-23.5 111.4-51.2 5.3 4.3 27.2 14.7 31.7 19.2 -30.6 25.6-101.9 46.3-142.3 46.3 -3.9 0-7.6-0.2-11.3-0.6v21.6h174.7V407.8H103.9zM103.9 527.8v13.1c-42.5-7.6-54.3-51.8-54.3-51.8s20.4-22.6 54.3-26.3v14.4c0 0 0 0-0.1 0 -17.7-2.2-31.7 14.5-31.7 14.5S80 519.6 103.9 527.8M28.4 487.2c0 0 25.2-37.1 75.5-41v-13.5C48.2 437.2 0 484.4 0 484.4s27.3 79 103.9 86.3v-14.4C47.7 549.2 28.4 487.2 28.4 487.2z"></path>
+                            </g>
+                        </svg></a>
+                    </div>
+                    <div class="navbar-item mx-2">
+                        <a title="Twitter" href="#"><span class="orange">About</span></a>
+                    </div>
+                    <div class="navbar-item mx-2">
+                        <a title="Twitter" href="#"><span class="black">Program</span></a>
+                    </div>
+                    <div class="navbar-item mx-2">
+                        <a title="Twitter" href="#"><span class="black">Join</span></a>
+                    </div>
+                    <div class="navbar-item mx-2">
+                        <a title="Twitter" href="#"><span class="black">Sponsor</span></a>
+                    </div>
+                    <div class="navbar-item mx-2">
+                        <a title="Twitter" href="#"><span class="black">News</span></a>
+                    </div>
+                    <div class="navbar-item mx-2">
+                        <button type="button" class="btn btn-outline-secondary btn-border orange rounded-0">Campaign</button>
+                    </div>
+                    <!-- Navbar content -->
+                </nav>
             </div>
         </nav>
     </header>
@@ -31,16 +88,18 @@
     <main>
         <!--Start top section-->
         <section class="container-fluid pt-5 bg-topsection pb-3">
-            <div class="mx-4">
-                <h2>"Hello World!"</h2>
-                <h1>NVIDIA GTC 2021</h1>
-            </div>
-            <div class="mx-3 bg-gray border border-4 border-white">    
-                <p>Don’t miss these sessions on the latest in AI, data center, accelerated computing, healthcare, intelligent networking, game development, and more. Get insights on the advanced technologies transforming today’s industries.</p>
-            </div>
-            <div class="mx-3 py-2">
-                <h2 class="black fw-bolder">2021.17.04 (THU) ~ 18 (FRI)</h2>
-                <p>@ Nvidia headquarters at Santa Clara, California, United States</p>
+            <div class="container-md">
+                <div class="mx-4 mx-md-5">
+                    <h2>"Hello World!"</h2>
+                    <h1>NVIDIA GTC 2021</h1>
+                </div>
+                <div class="mx-3 mx-md-5 bg-gray border border-4 border-white w-md-50 col-md-6">
+                    <p>Don’t miss these sessions on the latest in AI, data center, accelerated computing, healthcare, intelligent networking, game development, and more. Get insights on the advanced technologies transforming today’s industries.</p>
+                </div>
+                <div class="mx-3 mx-md-5 py-2">
+                    <h2 class="black fw-bolder">2021.17.04 (THU) ~ 18 (FRI)</h2>
+                    <p>@ Nvidia headquarters at Santa Clara, California, United States</p>
+                </div>
             </div>
         </section>
         <!--End top section-->
@@ -48,66 +107,66 @@
         <section class="container-fluid bg-mainProgram py-3">
             <h2 class="text-center white">Main Program</h2>
             <p class="margin-top text-center orange">______</p>
-            <div class="row">
-                <div class="col-12 my-3">
-                    <div class="mx-5 py-3 row bg-darkgray">
-                        <div class="col-2 lecture opacity">
+            <div class="row justify-content-md-center">
+                <div class="col-12 my-3 col-md-2 text-md-center">
+                    <div class="mx-5 mx-md-0 py-3 row bg-darkgray justify-content-md-center">
+                        <div class="col-2 lecture opacity col-md-12">
                             <img class="img1" alt="lecture" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUwOS43MjkgNTA5LjcyOSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+PGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtNTkuODY0IDIwOS43MjloMzkwdjQ1aC0zOTB6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggZD0ibTM4OS44NjQgMTc5LjcyOWgzMHYtNTEuMjEzbC00OS4zOTMtNDkuMzk0LTIxLjIxMyAyMS4yMTMgNDAuNjA2IDQwLjYwN3oiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD48cGF0aCBkPSJtMTE5Ljg2NCAxNDAuOTQyIDQwLjYwNy00MC42MDctMjEuMjEzLTIxLjIxMy00OS4zOTQgNDkuMzk0djUxLjIxM2gzMHoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD48cGF0aCBkPSJtODkuODY0IDQ2NC43MjloMzMwdjQ1aC0zMzB6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggZD0ibTg5Ljg2NCA0MzQuNzI5aDMzMHYtMTUwaC0zMzB6bTE0NS42MDctMTE1LjYwNyAxOS4zOTQgMTkuMzk0IDM0LjM5NC0zNC4zOTQgMjEuMjEzIDIxLjIxMy01NS42MDYgNTUuNjA2LTQwLjYwNi00MC42MDZ6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggZD0ibTMyOS44NjQgMTY0LjcyOWMwLTE5LjY4NC03LjYzMy0zNy42MS0yMC4wODEtNTEuMDA0LTI5Ljg1NyAyNy43OTctNzkuOTg5IDI3Ljc5LTEwOS44MzggMC0xMi40NDggMTMuMzk0LTIwLjA4MSAzMS4zMi0yMC4wODEgNTEuMDA0djE1aDE1MHoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD48cGF0aCBkPSJtMjU0Ljg2NCAxMDQuNzI5YzI4Ljk0OCAwIDUyLjUtMjMuNTUyIDUyLjUtNTIuNS0yLjg4NC02OS42NDgtMTAyLjEyNy02OS42MjgtMTA1IDAgMCAyOC45NDggMjMuNTUyIDUyLjUgNTIuNSA1Mi41eiIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+" />
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 col-md-12">
                             <h2>Lecture</h2>
                         </div>
-                        <div class="col-6">
+                        <div class="col-6 col-md-12">
                             <p class="white">Get insights on the advanced technologies transforming today’s industries.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 my-3">
-                    <div class="mx-5 py-3 row bg-darkgray">
-                        <div class="col-2 lecture opacity">
+                <div class="col-12 my-3 col-md-2 text-md-center">
+                    <div class="mx-5 mx-md-0 py-3 row bg-darkgray justify-content-md-center">
+                        <div class="col-2 lecture opacity col-md-12">
                             <img class="img1" title="exhibition" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjx0aXRsZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPkV4aGliaXRpb248L3RpdGxlPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0iTTQ0Mi41LDMwMy4zNzlBMjkuNTcsMjkuNTcsMCwwLDAsNDEzLDMzMy4xMjh2MzIuOTgzYy0zLDE3LjY3MS0xOC4yOTEsMzQuMDI3LTQzLjc1Nyw0Ny4yMjItMzAuMDQ5LDE1LjU2OC03MC4zLDI0LjEyNy0xMTMuMTE4LDI0LjEyN3MtODMuMjU3LTguNTY0LTExMy4zLTI0LjEzMkMxMTcuMzUzLDQwMC4xMzMsMTAyLDM4My43ODEsOTksMzY2LjExMVYzMzMuMTI4YTI5LjUsMjkuNSwwLDEsMC01OSwwVjQ5MC4zMzNBNy43MjIsNy43MjIsMCwwLDAsNDgsNDk4SDkxLjVhNy4zMDksNy4zMDksMCwwLDAsNy41LTcuNjY3VjQwMC40MjRjOSwxMC4wNTUsMjEuMTczLDE5LjIyMywzNi40LDI3LjExLDMyLjI4MSwxNi43MjUsNzUuMTQ4LDI1LjkxNywxMjAuNDc5LDI1LjkxN3M4OC4zODUtOS4xOTIsMTIwLjY2Ni0yNS45MTdDMzkxLjc2NCw0MTkuNjQ3LDQwNCw0MTAuNDc5LDQxMyw0MDAuNDI0djg5LjkwOUE3LjMwOSw3LjMwOSwwLDAsMCw0MjAuNSw0OThINDY0YTcuNzIyLDcuNzIyLDAsMCwwLDgtNy42NjdWMzMzLjEyOEEyOS41NywyOS41NywwLDAsMCw0NDIuNSwzMDMuMzc5Wm0tMzczLDE2QTEzLjU1NCwxMy41NTQsMCwwLDEsODMsMzMzLjEyOFYzNTNINTZWMzMzLjEyOEExMy41NTQsMTMuNTU0LDAsMCwxLDY5LjUsMzE5LjM3OVpNNTYsNDgyVjM2OUg4M1Y0ODJaTTQ0Mi41LDMxOS4zNzlBMTMuNTU0LDEzLjU1NCwwLDAsMSw0NTYsMzMzLjEyOFYzNTNINDI5VjMzMy4xMjhBMTMuNTU0LDEzLjU1NCwwLDAsMSw0NDIuNSwzMTkuMzc5Wk00MjksNDgyVjM2OWgyN1Y0ODJaIiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkPSJNNDI4LDUyYTgsOCwwLDAsMC04LThIOTJhOCw4LDAsMCwwLTgsOFYyNDlhOCw4LDAsMCwwLDgsOEg0MjBhOCw4LDAsMCwwLDgtOFptLTE2LDh2ODEuNDczbC0xMDUuODYyLDU3LjdhMjguNjQxLDI4LjY0MSwwLDAsMS0zMi4zMTYtMi44NzNsLTUwLjQ4NS00Mi4xNDFhNDUuMDA3LDQ1LjAwNywwLDAsMC01My44MTYtMi4zNDZMMTAwLDE5Ny43NjRWNjBaTTEwMCwyNDFWMjE2Ljk0M2w3OC40LTUxLjgxNy4xMjYtLjA4NWEyOC45MjIsMjguOTIyLDAsMCwxLDM0LjYsMS40NDJsNTAuNDg2LDQyLjE0MmE0NC41NDUsNDQuNTQ1LDAsMCwwLDUwLjI1MSw0LjU2M0w0MTIsMTU5LjdWMjQxWiIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0iTTI4Ny41MjIsMTQ4LjgyNmMyMS4zMSwwLDM4LjY0Ny0xNi43MzIsMzguNjQ3LTM3LjNzLTE3LjMzNy0zNy4zLTM4LjY0Ny0zNy4zLTM4LjY0NywxNi43MzItMzguNjQ3LDM3LjNTMjY2LjIxMiwxNDguODI2LDI4Ny41MjIsMTQ4LjgyNlptMC01OC42YzEyLjQ4OCwwLDIyLjY0Nyw5LjU1NSwyMi42NDcsMjEuM3MtMTAuMTU5LDIxLjMtMjIuNjQ3LDIxLjMtMjIuNjQ3LTkuNTU0LTIyLjY0Ny0yMS4zUzI3NS4wMzQsOTAuMjI5LDI4Ny41MjIsOTAuMjI5WiIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0iTTQ1OCwyMmE4LDgsMCwwLDAtOC04SDYyYTgsOCwwLDAsMC04LDhWMjc5YTgsOCwwLDAsMCw4LDhINDUwYTgsOCwwLDAsMCw4LThaTTcwLDMwSDQ0MlYyNzFINzBaIiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PC9nPjwvc3ZnPg==" />                                </div>
-                        <div class="col-4">
+                        <div class="col-4 col-md-12">
                             <h2>Exhibition</h2>
                         </div>
-                        <div class="col-6">
+                        <div class="col-6 col-md-12">
                             <p class="white">See how the new technologies will shape the world that we currently live on.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 my-3">
-                    <div class="mx-5 py-3 row bg-darkgray">
-                        <div class="col-2 lecture opacity">
+                <div class="col-12 my-3 col-md-2 text-md-center">
+                    <div class="mx-5 mx-md-0 py-3 row bg-darkgray justify-content-md-center">
+                        <div class="col-2 lecture opacity col-md-12">
                             <img class="img1" title="forum" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQzMy4yNTkgMzAwLjA0NGgtMjA1LjYwN2MtNC4xNDIgMC03LjUgMy4zNTgtNy41IDcuNXMzLjM1OCA3LjUgNy41IDcuNWgyMDUuNjA3YzQuMTQyIDAgNy41LTMuMzU4IDcuNS03LjVzLTMuMzU4LTcuNS03LjUtNy41eiIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPjxwYXRoIGQ9Im00MzMuMjU5IDM2MS45MzJoLTIwNS42MDdjLTQuMTQyIDAtNy41IDMuMzU4LTcuNSA3LjVzMy4zNTggNy41IDcuNSA3LjVoMjA1LjYwN2M0LjE0MiAwIDcuNS0zLjM1OCA3LjUtNy41cy0zLjM1OC03LjUtNy41LTcuNXoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD48cGF0aCBkPSJtOTYuNDM1IDE0Mi4wMjljMC00LjE0Mi0zLjM1OC03LjUtNy41LTcuNXMtNy41IDMuMzU4LTcuNSA3LjVjMCA0LjE0MiAzLjM1OCA3LjUgNy41IDcuNXM3LjUtMy4zNTggNy41LTcuNXoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD48cGF0aCBkPSJtMTg5LjA0NCAxNDIuMDI5YzAtNC4xNDItMy4zNTgtNy41LTcuNS03LjVzLTcuNSAzLjM1OC03LjUgNy41YzAgNC4xNDIgMy4zNTggNy41IDcuNSA3LjUgNC4xNDMgMCA3LjUtMy4zNTggNy41LTcuNXoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD48cGF0aCBkPSJtMjgxLjY1NCAxNDIuMDI5YzAtNC4xNDItMy4zNTgtNy41LTcuNS03LjVzLTcuNSAzLjM1OC03LjUgNy41YzAgNC4xNDIgMy4zNTggNy41IDcuNSA3LjVzNy41LTMuMzU4IDcuNS03LjV6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIj48L3BhdGg+PHBhdGggZD0ibTY3LjY4OSA0MDMuODI2Yy0xNS42OCAwLTI4LjQzNiAxMi43NTYtMjguNDM2IDI4LjQzNnMxMi43NTYgMjguNDM2IDI4LjQzNiAyOC40MzYgMjguNDM3LTEyLjc1NiAyOC40MzctMjguNDM2YzAtMTUuNjc5LTEyLjc1Ni0yOC40MzYtMjguNDM3LTI4LjQzNnptMCA0MS44NzNjLTcuNDA5IDAtMTMuNDM2LTYuMDI3LTEzLjQzNi0xMy40MzZzNi4wMjctMTMuNDM2IDEzLjQzNi0xMy40MzYgMTMuNDM3IDYuMDI4IDEzLjQzNyAxMy40MzYtNi4wMjggMTMuNDM2LTEzLjQzNyAxMy40MzZ6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIj48L3BhdGg+PHBhdGggZD0ibTQ0NC4zMSAxMDguMTc4YzE1LjY4IDAgMjguNDM2LTEyLjc1NiAyOC40MzYtMjguNDM2cy0xMi43NTYtMjguNDM3LTI4LjQzNi0yOC40MzctMjguNDM2IDEyLjc1Ni0yOC40MzYgMjguNDM3YzAgMTUuNjc5IDEyLjc1NiAyOC40MzYgMjguNDM2IDI4LjQzNnptMC00MS44NzNjNy40MDkgMCAxMy40MzYgNi4wMjggMTMuNDM2IDEzLjQzN3MtNi4wMjcgMTMuNDM2LTEzLjQzNiAxMy40MzYtMTMuNDM2LTYuMDI3LTEzLjQzNi0xMy40MzYgNi4wMjgtMTMuNDM3IDEzLjQzNi0xMy40Mzd6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIj48L3BhdGg+PHBhdGggZD0ibTIzMC4xNzYgNDMzLjczOWgtNDguNzY1Yy05LjY0OSAwLTE3LjUtNy44NTEtMTcuNS0xNy41di0xMTIuMTc3YzAtLjAzMi0uMDA0LS4wNjItLjAwNS0uMDk0bDIwLjAxMi0yMC4wMTNjLjQ3Mi0uNDcyIDEuMS0uNzMyIDEuNzY4LS43MzJoMTQ0LjkwMmMxNy4xMDEgMCAzMS4xNS0xMy4yOCAzMi4zOTktMzAuMDY4aDcwLjI3MWM0LjE0MiAwIDcuNS0zLjM1OCA3LjUtNy41cy0zLjM1OC03LjUtNy41LTcuNWgtNzAuMTd2LTU2LjgwN2gzMS4xMzFjNC4xNDIgMCA3LjUtMy4zNTggNy41LTcuNXMtMy4zNTgtNy41LTcuNS03LjVoLTMxLjEzMXYtMTMzLjAxNGMwLTE3LjkyLTE0LjU4LTMyLjUtMzIuNS0zMi41aC0yOTguMDg4Yy0xNy45MiAwLTMyLjUgMTQuNTgtMzIuNSAzMi41djM2LjczN2MwIDQuMTQyIDMuMzU4IDcuNSA3LjUgNy41czcuNS0zLjM1OCA3LjUtNy41di0zNi43MzdjMC05LjY0OSA3Ljg1MS0xNy41IDE3LjUtMTcuNWgyOTguMDg5YzkuNjQ5IDAgMTcuNSA3Ljg1MSAxNy41IDE3LjV2MjE3LjM5YzAgOS42NDktNy44NTEgMTcuNS0xNy41IDE3LjVoLTE0NC45MDNjLTQuNjc0IDAtOS4wNjkgMS44Mi0xMi4zNzQgNS4xMjZsLTUzLjc2IDUzLjc2di00MS4zODVjMC05LjY0OS03Ljg1MS0xNy41LTE3LjUtMTcuNWgtNjkuNTUyYy05LjY0OSAwLTE3LjUtNy44NTEtMTcuNS0xNy41di0xNDcuOTY4YzAtNC4xNDItMy4zNTgtNy41LTcuNS03LjVzLTcuNSAzLjM1OC03LjUgNy41djE0Ny45NjdjMCAxNy45MiAxNC41OCAzMi41IDMyLjUgMzIuNWg2OS41NTNjMS4zNzggMCAyLjUgMS4xMjIgMi41IDIuNXY0Ny40MjFjMCA1LjA3NCAzLjAyOSA5LjYwNyA3LjcxNiAxMS41NDggMS41NTYuNjQ1IDMuMTg0Ljk1OCA0Ljc5Ni45NTggMy4yNDYtLjAwMSA2LjQyOS0xLjI3MSA4LjgyNi0zLjY2OGwyMy4wMi0yMy4wMnY5Ny4yNzVjMCAxNy45MiAxNC41OCAzMi41IDMyLjUgMzIuNWg0OC43NjVjNC4xNDIgMCA3LjUtMy4zNTggNy41LTcuNSAwLTQuMTQxLTMuMzU4LTcuNDk5LTcuNS03LjQ5OXoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD48cGF0aCBkPSJtNDc5LjUgMTY2LjM0OWgtNTIuNTkzYy00LjE0MiAwLTcuNSAzLjM1OC03LjUgNy41czMuMzU4IDcuNSA3LjUgNy41aDUyLjU5M2M5LjY0OSAwIDE3LjUgNy44NTEgMTcuNSAxNy41djIxNy4zOWMwIDkuNjQ5LTcuODUxIDE3LjUtMTcuNSAxNy41aC02OS41NTNjLTkuNjQ5IDAtMTcuNSA3Ljg1MS0xNy41IDE3LjV2NDEuMzg1bC01My43NTktNTMuNzU5Yy0zLjMwNS0zLjMwNi03LjctNS4xMjYtMTIuMzc1LTUuMTI2aC02My40NTFjLTQuMTQyIDAtNy41IDMuMzU4LTcuNSA3LjVzMy4zNTggNy41IDcuNSA3LjVoNjMuNDUxYy42NjggMCAxLjI5NS4yNiAxLjc2OC43MzJsNTguMDI3IDU4LjAyN2MyLjM5NyAyLjM5OCA1LjU4IDMuNjY4IDguODI2IDMuNjY4IDEuNjEyIDAgMy4yNC0uMzEzIDQuNzk2LS45NTggNC42ODgtMS45NDEgNy43MTctNi40NzUgNy43MTctMTEuNTQ5di00Ny40MjFjMC0xLjM3OCAxLjEyMS0yLjUgMi41LTIuNWg2OS41NTNjMTcuOTIgMCAzMi41LTE0LjU4IDMyLjUtMzIuNXYtMjE3LjM5YzAtMTcuOTE5LTE0LjU4LTMyLjQ5OS0zMi41LTMyLjQ5OXoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" />                        </div>
-                        <div class="col-4">
+                        <div class="col-4 col-md-12">
                             <h2>Forum</h2>
                         </div>
-                        <div class="col-6">
+                        <div class="col-6 col-md-12">
                             <p class="white">Get insights on the advanced technologies transforming today’s industries.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 my-3">
-                    <div class="mx-5 py-3 row bg-darkgray">
-                        <div class="col-2 lecture opacity">
+                <div class="col-12 my-3 col-md-2 text-md-center">
+                    <div class="mx-5 mx-md-0 py-3 row bg-darkgray justify-content-md-center">
+                        <div class="col-2 lecture opacity col-md-12">
                             <img class="img1" title="workshop" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTM2IDgwaDEwdjIzNmMwIDUuNTIzIDQuNDc3IDEwIDEwIDEwaDMwdjE2NmgtMTBjLTUuNTIzIDAtMTAgNC40NzctMTAgMTBzNC40NzcgMTAgMTAgMTBoNjBjNS41MjMgMCAxMC00LjQ3NyAxMC0xMHYtNTZoNjVjNS41MjMgMCAxMC00LjQ3NyAxMC0xMHMtNC40NzctMTAtMTAtMTBoLTY1di0xMDBoMTAwdjIxLjcyYy0xMS42MzkgNC4xMjgtMjAgMTUuMjQzLTIwIDI4LjI4IDAgMTYuNTQyIDEzLjQ1OCAzMCAzMCAzMHMzMC0xMy40NTggMzAtMzBjMC0xMy4wMzYtOC4zNjEtMjQuMTUyLTIwLTI4LjI4di0yMS43MmgxMDB2MTAwaC02NWMtNS41MjMgMC0xMCA0LjQ3Ny0xMCAxMHM0LjQ3NyAxMCAxMCAxMGg2NXY1NmMwIDUuNTIzIDQuNDc3IDEwIDEwIDEwaDYwYzUuNTIzIDAgMTAtNC40NzcgMTAtMTBzLTQuNDc3LTEwLTEwLTEwaC0xMHYtMTY2aDMwYzUuNTIzIDAgMTAtNC40NzcgMTAtMTB2LTIzNmgxMGM1LjUyMyAwIDEwLTQuNDc3IDEwLTEwdi00MGMwLTUuNTIzLTQuNDc3LTEwLTEwLTEwaC0yMTB2LTEwYzAtNS41MjMtNC40NzctMTAtMTAtMTBzLTEwIDQuNDc3LTEwIDEwdjEwaC0yMTBjLTUuNTIzIDAtMTAgNC40NzctMTAgMTB2NDBjMCA1LjUyMyA0LjQ3NyAxMCAxMCAxMHptMjIwIDMwNmMtNS41MTQgMC0xMC00LjQ4Ni0xMC0xMHM0LjQ4Ni0xMCAxMC0xMCAxMCA0LjQ4NiAxMCAxMC00LjQ4NiAxMC0xMCAxMHptLTEzMCAxMDZoLTIwdi0xNjZoMjB6bTI4MCAwaC0yMHYtMTY2aDIwem00MC0xODZoLTM4MHYtMjI2aDM4MHptLTQwMC0yNjZoNDIwdjIwaC00MjB6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggZD0ibTExMS4yODEgMjAxLjgxN2MzLjI0NCAxLjczNiA3LjE4OSAxLjU1NSAxMC4yNjYtLjQ5N2w1Ny40OC0zOC4zMmg0Ni45NzN2MzBjMCAzLjY4OCAyLjAzIDcuMDc3IDUuMjgxIDguODE3IDMuMjQ0IDEuNzM2IDcuMTg5IDEuNTU1IDEwLjI2Ni0uNDk3bDU3LjQ4LTM4LjMyaDQ2Ljk3M3YzMGMwIDMuNjg4IDIuMDMgNy4wNzcgNS4yODEgOC44MTcgMy4yNDQgMS43MzYgNy4xODkgMS41NTUgMTAuMjY2LS40OTdsNjAtNDBjMi43ODItMS44NTQgNC40NTMtNC45NzcgNC40NTMtOC4zMnMtMS42NzEtNi40NjYtNC40NTMtOC4zMmwtNjAtNDBjLTMuMDY5LTIuMDQ1LTcuMDE0LTIuMjM2LTEwLjI2Ni0uNDk3LTMuMjUxIDEuNzQtNS4yODEgNS4xMjktNS4yODEgOC44MTd2MzBoLTQ2Ljk3M2wtNTcuNDgtMzguMzJjLTMuMDY4LTIuMDQ1LTcuMDE0LTIuMjM2LTEwLjI2Ni0uNDk3LTMuMjUxIDEuNzQtNS4yODEgNS4xMjktNS4yODEgOC44MTd2MzBoLTQ2Ljk3M2wtNTcuNDgtMzguMzJjLTMuMDY5LTIuMDQ1LTcuMDE0LTIuMjM2LTEwLjI2Ni0uNDk3LTMuMjUxIDEuNzQtNS4yODEgNS4xMjktNS4yODEgOC44MTd2ODBjMCAzLjY4OCAyLjAzIDcuMDc3IDUuMjgxIDguODE3em0yNTQuNzE5LTcwLjEzMiAzMS45NzIgMjEuMzE1LTMxLjk3MiAyMS4zMTV6bS0xMjAgMCAzMS45NzIgMjEuMzE1LTMxLjk3MiAyMS4zMTV6bS0xMjAgMCAzMS45NzIgMjEuMzE1LTMxLjk3MiAyMS4zMTV6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggZD0ibTExNiAyNDNoNDBjNS41MjMgMCAxMC00LjQ3NyAxMC0xMHMtNC40NzctMTAtMTAtMTBoLTQwYy01LjUyMyAwLTEwIDQuNDc3LTEwIDEwczQuNDc3IDEwIDEwIDEweiIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjxwYXRoIGQ9Im0xMTYgMjgzaDQwYzUuNTIzIDAgMTAtNC40NzcgMTAtMTBzLTQuNDc3LTEwLTEwLTEwaC00MGMtNS41MjMgMC0xMCA0LjQ3Ny0xMCAxMHM0LjQ3NyAxMCAxMCAxMHoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD48cGF0aCBkPSJtMjc2IDIyM2gtNDBjLTUuNTIzIDAtMTAgNC40NzctMTAgMTBzNC40NzcgMTAgMTAgMTBoNDBjNS41MjMgMCAxMC00LjQ3NyAxMC0xMHMtNC40NzctMTAtMTAtMTB6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggZD0ibTI3NiAyNjNoLTQwYy01LjUyMyAwLTEwIDQuNDc3LTEwIDEwczQuNDc3IDEwIDEwIDEwaDQwYzUuNTIzIDAgMTAtNC40NzcgMTAtMTBzLTQuNDc3LTEwLTEwLTEweiIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjxwYXRoIGQ9Im0zOTYgMjIzaC00MGMtNS41MjMgMC0xMCA0LjQ3Ny0xMCAxMHM0LjQ3NyAxMCAxMCAxMGg0MGM1LjUyMyAwIDEwLTQuNDc3IDEwLTEwcy00LjQ3Ny0xMC0xMC0xMHoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD48cGF0aCBkPSJtMzk2IDI2M2gtNDBjLTUuNTIzIDAtMTAgNC40NzctMTAgMTBzNC40NzcgMTAgMTAgMTBoNDBjNS41MjMgMCAxMC00LjQ3NyAxMC0xMHMtNC40NzctMTAtMTAtMTB6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PGNpcmNsZSBjeD0iMjU2IiBjeT0iNDM2IiByPSIxMCIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9jaXJjbGU+PC9nPjwvZz48L3N2Zz4=" />
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 col-md-12">
                             <h2>Workshop</h2>
                         </div>
-                        <div class="col-6">
+                        <div class="col-6 col-md-12">
                             <p class="white">Get insights on the advanced technologies transforming today’s industries.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 my-3">
-                    <div class="mx-5 py-3 row bg-darkgray">
-                        <div class="col-2 lecture opacity">
+                <div class="col-12 my-3 col-md-2 ">
+                    <div class="mx-5 mx-md-0 py-3 row bg-darkgray text-md-center">
+                        <div class="col-2 lecture opacity col-md-12">
                             <img class="img1" title="network" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMi4wMDIgNTEyLjAwMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGcgdHJhbnNmb3JtPSJtYXRyaXgoMSwwLDAsMSwwLDApIj4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxnPgoJCTxwYXRoIGQ9Ik00NzguNzg5LDIyMi43ODhjLTE0LjgzLDAtMjcuNDE4LDkuNzcxLTMxLjY3MSwyMy4yMTNINDI1LjdjLTIuMjk0LTM5LjM1NS0xOC4wMzctNzUuMTU1LTQyLjY5LTEwMi44NjZsMTUuMTk1LTE1LjE5NSAgICBjNC42NzgsMi40NCw5LjkwNCwzLjczOSwxNS4zMzIsMy43MzljMC45NjcsMCwxLjkyNy0wLjA0OSwyLjg3OS0wLjEzbDE1LjUzMSwzNy40OTJjMS41OTUsMy44NTEsNS4zMTgsNi4xNzUsOS4yNDMsNi4xNzUgICAgYzEuMjc1LDAsMi41NzItMC4yNDUsMy44MjMtMC43NjRjNS4xMDMtMi4xMTQsNy41MjUtNy45NjMsNS40MTItMTMuMDY2bC0xNS41MzEtMzcuNDkyYzAuNzMxLTAuNjE2LDEuNDQ1LTEuMjYsMi4xMjktMS45NDQgICAgYzEyLjk0OS0xMi45NDksMTIuOTQ5LTM0LjAyLDAtNDYuOTdjLTYuMjc0LTYuMjczLTE0LjYxNC05LjcyOC0yMy40ODUtOS43MjhjLTguODcyLDAtMTcuMjEyLDMuNDU1LTIzLjQ4NCw5LjcyOCAgICBjLTYuMjc0LDYuMjczLTkuNzI5LDE0LjYxNC05LjcyOSwyMy40ODVjMCw1LjQyOCwxLjI5OSwxMC42NTQsMy43NCwxNS4zMzJsLTE1LjE5NSwxNS4xOTUgICAgYy0yNy43MTEtMjQuNjUzLTYzLjUxLTQwLjM5NS0xMDIuODY2LTQyLjY4OVY2NC44ODVjNi4wNzgtMS45MjMsMTEuNDAxLTUuNTUyLDE1LjQxNC0xMC4zMjFMMzE4LjkyMiw3MC4xICAgIGMxLjI1MSwwLjUxOSwyLjU0NywwLjc2NCwzLjgyMywwLjc2NGMzLjkyNCwwLDcuNjQ3LTIuMzI1LDkuMjQzLTYuMTc2YzIuMTE0LTUuMTAyLTAuMzEtMTAuOTUyLTUuNDEyLTEzLjA2NWwtMzcuNDk1LTE1LjUzMSAgICBjMC4wODItMC45NSwwLjEzMy0xLjkwOCwwLjEzMy0yLjg3OEMyODkuMjE0LDE0LjksMjc0LjMxNSwwLDI1Ni4wMDIsMGMtMTguMzE0LDAtMzMuMjEzLDE0Ljg5OS0zMy4yMTMsMzMuMjEzICAgIGMwLDE0LjgzLDkuNzcxLDI3LjQxOCwyMy4yMTMsMzEuNjcxdjIxLjQxOWMtMzkuMzU2LDIuMjk0LTc1LjE1NCwxOC4wMzYtMTAyLjg2Niw0Mi42ODlsLTE1LjE5Ni0xNS4xOTUgICAgYzIuNDQtNC42NzgsMy43NC05LjkwNCwzLjc0LTE1LjMzMmMwLTAuOTY3LTAuMDQ5LTEuOTI2LTAuMTMtMi44NzlsMzcuNDkyLTE1LjUzYzUuMTAzLTIuMTE0LDcuNTI1LTcuOTYzLDUuNDEyLTEzLjA2NiAgICBjLTIuMTE0LTUuMTAyLTcuOTYyLTcuNTI2LTEzLjA2Ni01LjQxMmwtMzcuNDkxLDE1LjUzYy0wLjYxNi0wLjczMi0xLjI2LTEuNDQ0LTEuOTQ0LTIuMTI4ICAgIGMtNi4yNzItNi4yNzMtMTQuNjEzLTkuNzI5LTIzLjQ4NC05LjcyOWMtOC44NzEsMC0xNy4yMTIsMy40NTUtMjMuNDg2LDkuNzI5Yy0xMi45NDksMTIuOTUtMTIuOTQ5LDM0LjAyMSwwLjAwMSw0Ni45NyAgICBjNi4yNzQsNi4yNzMsMTQuNjE0LDkuNzI4LDIzLjQ4Niw5LjcyOGM1LjQyNywwLDEwLjY1My0xLjI5OSwxNS4zMzEtMy43MzlsMTUuMTk1LDE1LjE5NSAgICBDMTA0LjM0MywxNzAuODQ1LDg4LjYsMjA2LjY0NSw4Ni4zMDYsMjQ2SDY0Ljg4NWMtMS45MjMtNi4wNzgtNS41NTItMTEuNDAyLTEwLjMyMS0xNS40MTVsMTUuNTM2LTM3LjUwOCAgICBjMi4xMTQtNS4xMDMtMC4zMDktMTAuOTUyLTUuNDEyLTEzLjA2NWMtNS4xMDEtMi4xMTMtMTAuOTUyLDAuMzA5LTEzLjA2NSw1LjQxMmwtMTUuNTMsMzcuNDk2ICAgIGMtMC45NS0wLjA4Mi0xLjkwOC0wLjEzMy0yLjg3OC0wLjEzM0MxNC44OTksMjIyLjc4OCwwLDIzNy42ODgsMCwyNTYuMDAxczE0Ljg5OSwzMy4yMTIsMzMuMjEzLDMzLjIxMiAgICBjMTQuODMsMCwyNy40MTgtOS43NzEsMzEuNjcxLTIzLjIxMmgyMS40MTljMi4yOTUsMzkuMzU1LDE4LjAzNiw3NS4xNTQsNDIuNjg5LDEwMi44NjZsLTE1LjE5NSwxNS4xOTUgICAgYy00LjY3OC0yLjQ0LTkuOTA0LTMuNzQtMTUuMzMxLTMuNzRjLTAuOTY3LDAtMS45MjcsMC4wNDgtMi44OCwwLjEzbC0xNS41My0zNy40OTJjLTIuMTE0LTUuMTAzLTcuOTYyLTcuNTI3LTEzLjA2Ni01LjQxMiAgICBjLTUuMTAzLDIuMTE0LTcuNTI1LDcuOTYzLTUuNDEyLDEzLjA2NmwxNS41MzEsMzcuNDkyYy0wLjczMSwwLjYxNi0xLjQ0NSwxLjI2MS0yLjEyOSwxLjk0NSAgICBjLTEyLjk0OCwxMi45NDktMTIuOTQ4LDM0LjAyLDAuMDAxLDQ2Ljk3MWM2LjI3Myw2LjI3MiwxNC42MTQsOS43MjcsMjMuNDg1LDkuNzI3YzguODcxLDAsMTcuMjExLTMuNDU1LDIzLjQ4NC05LjcyOCAgICBzOS43MjgtMTQuNjE0LDkuNzI4LTIzLjQ4NWMwLTUuNDI3LTEuMjk5LTEwLjY1My0zLjc0LTE1LjMzMWwxNS4xOTUtMTUuMTk1YzI3LjcxMiwyNC42NTMsNjMuNTExLDQwLjM5NSwxMDIuODY2LDQyLjY4OXYyMS40MTggICAgYy02LjA3OCwxLjkyNC0xMS40MDEsNS41NTMtMTUuNDE0LDEwLjMyMWwtMzcuNTA3LTE1LjUzNmMtNS4xMDEtMi4xMTQtMTAuOTUyLDAuMzEtMTMuMDY1LDUuNDEyICAgIGMtMi4xMTQsNS4xMDIsMC4zMSwxMC45NTIsNS40MTIsMTMuMDY1bDM3LjQ5NSwxNS41MzFjLTAuMDgyLDAuOTUtMC4xMzMsMS45MDgtMC4xMzMsMi44NzljMCwxOC4zMTMsMTQuODk5LDMzLjIxMywzMy4yMTMsMzMuMjEzICAgIGMxOC4zMTMsMCwzMy4yMTMtMTQuOSwzMy4yMTMtMzMuMjEzYzAtMTQuODMtOS43NzItMjcuNDE4LTIzLjIxMy0zMS42NzJ2LTIxLjQxOGMzOS4zNTUtMi4yOTQsNzUuMTU0LTE4LjAzNiwxMDIuODY2LTQyLjY4OSAgICBsMTUuMTk1LDE1LjE5NGMtMi40NCw0LjY3OC0zLjc0LDkuOTA0LTMuNzQsMTUuMzMxYzAsMC45NjcsMC4wNDksMS45MjcsMC4xMywyLjg4bC0zNy40OTEsMTUuNTMgICAgYy01LjEwMiwyLjExNC03LjUyNSw3Ljk2My01LjQxMiwxMy4wNjZjMS41OTUsMy44NTEsNS4zMTgsNi4xNzUsOS4yNDMsNi4xNzVjMS4yNzUsMCwyLjU3Mi0wLjI0NSwzLjgyMy0wLjc2NGwzNy40OTItMTUuNTMgICAgYzAuNjE2LDAuNzMxLDEuMjYsMS40NDMsMS45NDQsMi4xMjdjNi4yNzMsNi4yNzMsMTQuNjEzLDkuNzI4LDIzLjQ4NSw5LjcyOGM4Ljg3MSwwLDE3LjIxMS0zLjQ1NSwyMy40ODYtOS43MjggICAgYzEyLjk0OC0xMi45NSwxMi45NDgtMzQuMDIxLTAuMDAxLTQ2Ljk3Yy02LjI3NC02LjI3My0xNC42MTQtOS43MjgtMjMuNDg1LTkuNzI4Yy01LjQyOCwwLTEwLjY1NCwxLjI5OS0xNS4zMzIsMy43NCAgICBsLTE1LjE5NS0xNS4xOTVjMjQuNjUzLTI3LjcxMSw0MC4zOTUtNjMuNTEsNDIuNjktMTAyLjg2NmgyMS40MThjMS45MjMsNi4wNzgsNS41NTIsMTEuNDAyLDEwLjMyMSwxNS40MTRsLTE1LjUzNSwzNy41MDcgICAgYy0yLjExNCw1LjEwMywwLjMwOSwxMC45NTIsNS40MTIsMTMuMDY1YzEuMjUxLDAuNTE5LDIuNTQ3LDAuNzY0LDMuODIzLDAuNzY0YzMuOTI0LDAsNy42NDgtMi4zMjUsOS4yNDMtNi4xNzZsMTUuNTMtMzcuNDk1ICAgIGMwLjk0OSwwLjA4MiwxLjkwNywwLjEzMywyLjg3NywwLjEzM2MxOC4zMTQsMCwzMy4yMTQtMTQuODk5LDMzLjIxNC0zMy4yMTJDNTEyLjAwMywyMzcuNjg4LDQ5Ny4xMDQsMjIyLjc4OCw0NzguNzg5LDIyMi43ODh6ICAgICBNNDA0LjE5Myw4OS4xMjNjMi40OTUtMi40OTYsNS44MTMtMy44Nyw5LjM0Mi0zLjg3YzMuNTI5LDAsNi44NDgsMS4zNzQsOS4zNDMsMy44N2M1LjE1MSw1LjE1Miw1LjE1MSwxMy41MzUsMC4wMDEsMTguNjg2ICAgIGMtMS4yNDUsMS4yNDUtMi42OTUsMi4yMS00LjI3NCwyLjg2NmMtMC4wMDQsMC4wMDItMC4wMDgsMC4wMDMtMC4wMTIsMC4wMDRjLTAuMDAzLDAuMDAyLTAuMDA3LDAuMDAzLTAuMDExLDAuMDA1ICAgIGMtMS41NzksMC42NTMtMy4yODcsMC45OTUtNS4wNDcsMC45OTVjLTMuNTI5LDAtNi44NDctMS4zNzQtOS4zNDMtMy44NzFjLTIuNDk2LTIuNDk1LTMuODctNS44MTMtMy44Ny05LjM0MiAgICBDNDAwLjMyMyw5NC45MzcsNDAxLjY5OCw5MS42MTksNDA0LjE5Myw4OS4xMjN6IE0xMDcuODEsMTA3LjgwOWMtMi40OTUsMi40OTYtNS44MTMsMy44Ny05LjM0MiwzLjg3ICAgIGMtMy41MzEsMC02Ljg0OS0xLjM3NS05LjM0NS0zLjg3Yy01LjE1MS01LjE1Mi01LjE1MS0xMy41MzUsMC0xOC42ODZjMi40OTYtMi40OTYsNS44MTQtMy44Nyw5LjM0NC0zLjg3ICAgIGMzLjUyOSwwLDYuODQ3LDEuMzc0LDkuMzQyLDMuODdjMS4yNDYsMS4yNDYsMi4yMTIsMi42OTcsMi44NjgsNC4yNzdjMC4wMDIsMC4wMDIsMC4wMDIsMC4wMDUsMC4wMDMsMC4wMDggICAgYzAuMDAxLDAuMDAyLDAuMDAyLDAuMDAzLDAuMDAzLDAuMDA1YzAuNjU0LDEuNTgxLDAuOTk3LDMuMjksMC45OTcsNS4wNTNDMTExLjY4LDEwMS45OTUsMTEwLjMwNywxMDUuMzEzLDEwNy44MSwxMDcuODA5eiAgICAgTTMzLjIxNCwyNjkuMjE0Yy03LjI4NiwwLTEzLjIxMy01LjkyNy0xMy4yMTMtMTMuMjEyYzAtNy4yODYsNS45MjctMTMuMjEzLDEzLjIxMy0xMy4yMTNzMTMuMjEzLDUuOTI3LDEzLjIxMywxMy4yMTMgICAgQzQ2LjQyNywyNjMuMjg2LDQwLjUsMjY5LjIxNCwzMy4yMTQsMjY5LjIxNHogTTEwNy44MSw0MjIuODc5Yy0yLjQ5NSwyLjQ5NS01LjgxMywzLjg3LTkuMzQyLDMuODcgICAgYy0zLjUzLDAtNi44NDgtMS4zNzUtOS4zNDMtMy44NjljLTUuMTUxLTUuMTUyLTUuMTUyLTEzLjUzNS0wLjAwMS0xOC42ODZjMS4yNDUtMS4yNDUsMi42OTUtMi4yMTEsNC4yNzQtMi44NjYgICAgYzAuMDA0LTAuMDAxLDAuMDA4LTAuMDAyLDAuMDEyLTAuMDA0YzAuMDAzLTAuMDAxLDAuMDA3LTAuMDAzLDAuMDEtMC4wMDVjMS41OC0wLjY1MiwzLjI4OC0wLjk5NSw1LjA0OC0wLjk5NSAgICBjMy41MjksMCw2Ljg0NywxLjM3NCw5LjM0MiwzLjg3YzIuNDk2LDIuNDk2LDMuODcsNS44MTMsMy44Nyw5LjM0MkMxMTEuNjgsNDE3LjA2NSwxMTAuMzA1LDQyMC4zODMsMTA3LjgxLDQyMi44Nzl6ICAgICBNNDA0LjE5NCw0MDQuMTkzYzIuNDk1LTIuNDk2LDUuODEzLTMuODcsOS4zNDItMy44N2MzLjUzLDAsNi44NDgsMS4zNzUsOS4zNDQsMy44N2M1LjE1MSw1LjE1Miw1LjE1MSwxMy41MzUsMC4wMDEsMTguNjg1ICAgIGMtMi40OTcsMi40OTYtNS44MTUsMy44NzEtOS4zNDQsMy44NzFzLTYuODQ3LTEuMzc1LTkuMzQzLTMuODdjLTEuMjQ1LTEuMjQ1LTIuMjExLTIuNjk1LTIuODY2LTQuMjczICAgIGMtMC4wMDEtMC4wMDQtMC4wMDMtMC4wMDctMC4wMDQtMC4wMTFjLTAuMDAxLTAuMDA0LTAuMDAzLTAuMDA3LTAuMDA1LTAuMDExYy0wLjY1My0xLjU4LTAuOTk2LTMuMjg4LTAuOTk2LTUuMDQ4ICAgIEM0MDAuMzIzLDQxMC4wMDcsNDAxLjY5Nyw0MDYuNjg5LDQwNC4xOTQsNDA0LjE5M3ogTTQwMS4xNzcsMjE4LjIxNWMtNy43OTMtNS4yNjktMTcuMzI4LTEwLjA3Ni0yOC41MDYtMTQuMjk3ICAgIGMtMTUuMDY3LTUuNjkxLTMyLjQ3OS0xMC4xNDYtNTEuMzc3LTEzLjI0NGMtMy4xMDItMTguODI5LTcuNTU5LTM2LjE5Ny0xMy4yNDUtNTEuMjUzYy00LjI0MS0xMS4yMjktOS4wNjYtMjAuODAyLTE0LjM1My0yOC42MjEgICAgQzM0Ni4xNDEsMTI0LjQyNSwzODcuNTIxLDE2NS43ODMsNDAxLjE3NywyMTguMjE1eiBNMzA2LjQyNSwyNTYuMDAxYzAsMTYuNDM0LTAuOTU4LDMyLjQ2My0yLjc5Niw0Ny42NDkgICAgYy0xNS4xNywxLjgyNi0zMS4xOTIsMi43NzctNDcuNjI5LDIuNzc3Yy0xNi40MzgsMC0zMi40Ni0wLjk1MS00Ny42MjktMi43NzdjLTEuODM4LTE1LjE4NS0yLjc5Ni0zMS4yMTUtMi43OTYtNDcuNjQ5ICAgIGMwLTE2LjQzNSwwLjk1OC0zMi40NjQsMi43OTYtNDcuNjVjMTUuMTY5LTEuODI2LDMxLjE5MS0yLjc3Nyw0Ny42MjktMi43NzdzMzIuNDYsMC45NTEsNDcuNjI5LDIuNzc3ICAgIEMzMDUuNDY4LDIyMy41MzcsMzA2LjQyNSwyMzkuNTY2LDMwNi40MjUsMjU2LjAwMXogTTI0Mi43ODksMzMuMjEzYzAtNy4yODYsNS45MjctMTMuMjEzLDEzLjIxMy0xMy4yMTMgICAgczEzLjIxMyw1LjkyNywxMy4yMTMsMTMuMjEzcy01LjkyNywxMy4yMTMtMTMuMjEzLDEzLjIxM1MyNDIuNzg5LDQwLjQ5OSwyNDIuNzg5LDMzLjIxM3ogTTI1NS45OTksMTA2LjAwMSAgICBjMTEuMzAzLDAsMjMuNzY2LDE1LjEzNSwzMy4zNCw0MC40ODZjNC42MjksMTIuMjU5LDguMzgxLDI2LjIzNywxMS4xOCw0MS4zOTVjLTE0LjMyOC0xLjUyLTI5LjI3My0yLjMwNy00NC41MTktMi4zMDcgICAgYy0xNS4yNDYsMC0zMC4xOSwwLjc4Ny00NC41MTksMi4zMDdjMi43OTktMTUuMTU3LDYuNTUxLTI5LjEzNiwxMS4xOC00MS4zOTVDMjMyLjIzNSwxMjEuMTM2LDI0NC42OTgsMTA2LjAwMSwyNTUuOTk5LDEwNi4wMDF6ICAgICBNMjE4LjMwNywxMTAuODAxYy01LjI4Nyw3LjgxOS0xMC4xMTIsMTcuMzkyLTE0LjM1MywyOC42MjFjLTUuNjg2LDE1LjA1Ni0xMC4xNDMsMzIuNDI0LTEzLjI0NSw1MS4yNTMgICAgYy0xOC44OTgsMy4wOTctMzYuMzA5LDcuNTUzLTUxLjM3NywxMy4yNDRjLTExLjE3OSw0LjIyMi0yMC43MTMsOS4wMjgtMjguNTA2LDE0LjI5NyAgICBDMTI0LjQ4MiwxNjUuNzgzLDE2NS44NjIsMTI0LjQyNSwyMTguMzA3LDExMC44MDF6IE0xNDYuMzk4LDIyMi42MjhjMTIuMjctNC42MzQsMjYuMjg3LTguMzg3LDQxLjUwMy0xMS4xODMgICAgYy0xLjUzMiwxNC4zNDgtMi4zMjUsMjkuMzA2LTIuMzI1LDQ0LjU1NnMwLjc5NCwzMC4yMDgsMi4zMjUsNDQuNTU1Yy0xNS4yMTYtMi43OTYtMjkuMjMzLTYuNTQ5LTQxLjUwMy0xMS4xODMgICAgYy0yNS4yOTQtOS41NTMtNDAuMzk2LTIyLjAyOC00MC4zOTYtMzMuMzcyUzEyMS4xMDQsMjMyLjE4MSwxNDYuMzk4LDIyMi42Mjh6IE0xMTAuODI0LDI5My43ODcgICAgYzcuNzk0LDUuMjY5LDE3LjMyOCwxMC4wNzUsMjguNTA3LDE0LjI5N2MxNS4wNjcsNS42OSwzMi40NzksMTAuMTQ3LDUxLjM3NywxMy4yNDRjMy4xMDIsMTguODI5LDcuNTU4LDM2LjE5NywxMy4yNDUsNTEuMjUzICAgIGM0LjI0MSwxMS4yMjksOS4wNjYsMjAuODAyLDE0LjM1MywyOC42MjFDMTY1Ljg2LDM4Ny41NzgsMTI0LjQ4LDM0Ni4yMTksMTEwLjgyNCwyOTMuNzg3eiBNMjY5LjIxNSw0NzguNzg5ICAgIGMwLDcuMjg1LTUuOTI3LDEzLjIxMy0xMy4yMTMsMTMuMjEzYy03LjI4NiwwLTEzLjIxMy01LjkyNy0xMy4yMTMtMTMuMjEzczUuOTI3LTEzLjIxMywxMy4yMTMtMTMuMjEzICAgIFMyNjkuMjE1LDQ3MS41MDMsMjY5LjIxNSw0NzguNzg5eiBNMjU2LjAwNCw0MDYuMDAxYy0xMS4zMDMsMC0yMy43NjYtMTUuMTM1LTMzLjM0LTQwLjQ4NiAgICBjLTQuNjI5LTEyLjI1OS04LjM4MS0yNi4yMzctMTEuMTgtNDEuMzk1YzE0LjMyOCwxLjUyMSwyOS4yNzMsMi4zMDcsNDQuNTE5LDIuMzA3czMwLjE5LTAuNzg3LDQ0LjUxOS0yLjMwNyAgICBjLTIuNzk5LDE1LjE1OC02LjU1MSwyOS4xMzYtMTEuMTgsNDEuMzk1QzI3OS43NjgsMzkwLjg2NiwyNjcuMzA1LDQwNi4wMDEsMjU2LjAwNCw0MDYuMDAxeiBNMjkzLjY5Nyw0MDEuMjAyICAgIGM1LjI4Ny03LjgxOSwxMC4xMTItMTcuMzkyLDE0LjM1My0yOC42MjFjNS42ODctMTUuMDU3LDEwLjE0My0zMi40MjUsMTMuMjQ1LTUxLjI1M2MxOC44OTgtMy4wOTcsMzYuMzA5LTcuNTUzLDUxLjM3Ny0xMy4yNDQgICAgYzExLjE3OS00LjIyMiwyMC43MTMtOS4wMjgsMjguNTA3LTE0LjI5N0MzODcuNTIxLDM0Ni4yMTksMzQ2LjE0MywzODcuNTc4LDI5My42OTcsNDAxLjIwMnogTTM2NS42MDUsMjg5LjM3MyAgICBjLTEyLjI3MSw0LjYzNC0yNi4yODcsOC4zODctNDEuNTAzLDExLjE4M2MxLjUzMi0xNC4zNDgsMi4zMjUtMjkuMzA1LDIuMzI1LTQ0LjU1NWMwLTE1LjI1LTAuNzk0LTMwLjIwOC0yLjMyNS00NC41NTYgICAgYzE1LjIxNiwyLjc5NiwyOS4yMzMsNi41NDksNDEuNTAzLDExLjE4M2MyNS4yOTQsOS41NTMsNDAuMzk2LDIyLjAyOSw0MC4zOTYsMzMuMzczUzM5MC44OTksMjc5LjgyLDM2NS42MDUsMjg5LjM3M3ogICAgIE00NzguNzg5LDI2OS4yMTRjLTcuMjg2LDAtMTMuMjEzLTUuOTI3LTEzLjIxMy0xMy4yMTJjMC03LjI4Niw1LjkyNy0xMy4yMTMsMTMuMjEzLTEzLjIxM3MxMy4yMTQsNS45MjcsMTMuMjE0LDEzLjIxMyAgICBDNDkyLjAwMywyNjMuMjg2LDQ4Ni4wNzUsMjY5LjIxNCw0NzguNzg5LDI2OS4yMTR6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxnPgoJCTxwYXRoIGQ9Ik0zNTIuMDMzLDYyLjE2NWwtMC4yNTktMC4xMDhjLTUuMDk3LTIuMTI1LTEwLjk1MywwLjI4NC0xMy4wNzksNS4zODFjLTIuMTI2LDUuMDk5LDAuMjg0LDEwLjk1NCw1LjM4MSwxMy4wOGwwLjI1OSwwLjEwOCAgICBjMS4yNTgsMC41MjQsMi41NjIsMC43NzIsMy44NDUsMC43NzJjMy45MTYsMCw3LjYzMy0yLjMxNCw5LjIzNC02LjE1NEMzNTkuNTM5LDcwLjE0NiwzNTcuMTMsNjQuMjkxLDM1Mi4wMzMsNjIuMTY1eiIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cGF0aCBkPSJNMTk5Ljg4NSw1Ni40NDljLTIuMTE4LTUuMTAxLTcuOTctNy41Mi0xMy4wNy01LjQwMmwtMC4yNTksMC4xMDdjLTUuMTAxLDIuMTE3LTcuNTIsNy45NjktNS40MDIsMTMuMDcgICAgYzEuNTk3LDMuODQ4LDUuMzE4LDYuMTY5LDkuMjQsNi4xNjljMS4yNzgsMCwyLjU3Ny0wLjI0NiwzLjgzLTAuNzY3bDAuMjU5LTAuMTA3QzE5OS41ODMsNjcuNDAyLDIwMi4wMDMsNjEuNTUsMTk5Ljg4NSw1Ni40NDl6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxnPgoJCTxwYXRoIGQ9Ik03NS4yMTYsMTU0LjU3N2MtNS4xMDQtMi4xMS0xMC45NTIsMC4zMTYtMTMuMDYzLDUuNDJsLTAuMTA3LDAuMjZjLTIuMTEsNS4xMDQsMC4zMTcsMTAuOTUyLDUuNDIxLDEzLjA2MyAgICBjMS4yNSwwLjUxNywyLjU0NCwwLjc2MSwzLjgxNywwLjc2MWMzLjkyNiwwLDcuNjUxLTIuMzI3LDkuMjQ1LTYuMTgxbDAuMTA3LTAuMjZDODIuNzQ3LDE2Mi41MzYsODAuMzIsMTU2LjY4OCw3NS4yMTYsMTU0LjU3N3oiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTY5LjY0MywzMTcuODIybC0wLjEwNy0wLjI2Yy0yLjA5NC01LjExLTcuOTMzLTcuNTU2LTEzLjA0NS01LjQ2MWMtNS4xMSwyLjA5NC03LjU1Niw3LjkzNS01LjQ2MSwxMy4wNDVsMC4xMDcsMC4yNiAgICBjMS41ODYsMy44Nyw1LjMxOSw2LjIxLDkuMjU3LDYuMjFjMS4yNjMsMCwyLjU0Ny0wLjI0MSwzLjc4OC0wLjc0OUM2OS4yOTIsMzI4Ljc3Myw3MS43MzcsMzIyLjkzMiw2OS42NDMsMzE3LjgyMnoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTE2Ny45MjcsNDMxLjQ4NGwtMC4yNTktMC4xMDhjLTUuMDk3LTIuMTI1LTEwLjk1MywwLjI4NC0xMy4wNzksNS4zODFjLTIuMTI1LDUuMDk4LDAuMjg0LDEwLjk1Myw1LjM4MSwxMy4wNzkgICAgbDAuMjU5LDAuMTA4YzEuMjU4LDAuNTI1LDIuNTYyLDAuNzczLDMuODQ1LDAuNzczYzMuOTE2LDAsNy42MzMtMi4zMTQsOS4yMzQtNi4xNTQgICAgQzE3NS40MzUsNDM5LjQ2NSwxNzMuMDI0LDQzMy42MSwxNjcuOTI3LDQzMS40ODR6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxnPgoJCTxwYXRoIGQ9Ik0zMzAuODYyLDQ0Ny44MDVjLTIuMTAzLTUuMTA3LTcuOTQ3LTcuNTQzLTEzLjA1NC01LjQ0MWwtMC4yNiwwLjEwN2MtNS4xMDcsMi4xMDItNy41NDMsNy45NDctNS40NCwxMy4wNTQgICAgYzEuNTksMy44NjIsNS4zMTgsNi4xOTYsOS4yNTEsNi4xOTZjMS4yNjgsMCwyLjU1OC0wLjI0MywzLjgwMy0wLjc1NWwwLjI2LTAuMTA3ICAgIEMzMzAuNTI5LDQ1OC43NTcsMzMyLjk2NSw0NTIuOTEyLDMzMC44NjIsNDQ3LjgwNXoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTQ0NC41NDIsMzM4LjY4NWMtNS4xMDEtMi4xMTUtMTAuOTUyLDAuMzA4LTEzLjA2Niw1LjQxMWwtMC4xMDcsMC4yNTljLTIuMTE0LDUuMTAyLDAuMzA4LDEwLjk1Miw1LjQxMSwxMy4wNjYgICAgYzEuMjUyLDAuNTE5LDIuNTQ4LDAuNzY0LDMuODI0LDAuNzY0YzMuOTIzLDAsNy42NDctMi4zMjQsOS4yNDItNi4xNzVsMC4xMDctMC4yNTkgICAgQzQ1Mi4wNjcsMzQ2LjY0OSw0NDkuNjQ1LDM0MC43OTksNDQ0LjU0MiwzMzguNjg1eiIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cGF0aCBkPSJNNDYwLjk1OSwxODYuODI3bC0wLjEwNy0wLjI2Yy0yLjExLTUuMTA0LTcuOTU5LTcuNTI5LTEzLjA2My01LjQyYy01LjEwMywyLjExMS03LjUyOSw3Ljk1OS01LjQxOSwxMy4wNjNsMC4xMDcsMC4yNiAgICBjMS41OTQsMy44NTQsNS4zMTksNi4xODEsOS4yNDUsNi4xODFjMS4yNzMsMCwyLjU2OC0wLjI0NSwzLjgxNy0wLjc2MUM0NjAuNjQzLDE5Ny43NzksNDYzLjA2OSwxOTEuOTMxLDQ2MC45NTksMTg2LjgyN3oiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8L2c+PC9zdmc+" />
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 col-md-12">
                             <h2>Network</h2>
                         </div>
-                        <div class="col-6">
+                        <div class="col-6 col-md-12">
                             <p class="white">Get insights on the advanced technologies transforming today’s industries.</p>
                         </div>
                     </div>
@@ -116,7 +175,6 @@
                     <button type="button" class="btn-lg btn-orange">Join Nvidia GTC 2021</button>
                 </div>
             </div>
-           
             <div class="d-none">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
         </section>
 
@@ -125,87 +183,89 @@
         <section class="container-fluid py-3">
             <h2 class="text-center black">Featured Speakers</h2>
             <p class="margin-top text-center orange">______</p>
-            <div class="row">
-                <div class="col-12 py-2">
-                    <div class="row px-2">
-                        <div class="col-auto img-container position-relative">
-                            <img class="features-img-1" src="imgs\chessboard.png" alt="chessboard">
-                            <img class="features-img-2" src="imgs\features-1.png" alt="features">
-                        </div>
-                        <div class="col">
-                            <h2 class="black">Yoshua Bengio</h2>
-                            <h3 class="orange">Founder and Scientific Director Mila, Quebec Artificial Intelligence Institute</h3>
-                            <p class="small-txt">Yoshua Bengio is a full professor in the Department of Computer Science and Operations Research at Université de Montreal, as well as the founder and scientific director of Mila and scientific director of IVADO.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 py-2">
-                    <div class="row px-2">
-                        <div class="col-auto img-container position-relative">
-                            <img class="features-img-1" src="imgs\chessboard.png" alt="chessboard">
-                            <img class="features-img-2" src="imgs\features-2.png" alt="features">
-                        </div>
-                        <div class="col">
-                            <h2 class="black">Geoffrey Hinton</h2>
-                            <h3 class="orange">Emeritus Professor, University of Toronto | VP and Engineering Fellow, Google</h3>
-                            <p class="small-txt">Geoffrey Hinton is a VP engineering fellow at Google and chief scientific adviser at the Vector Institute.</p>
+            <div class="container-fluid d-md-flex justify-content-md-center">
+                <div class="row container-md justify-content-md-center">
+                    <div class="col-12 col-md-6 py-2">
+                        <div class="row px-2">
+                            <div class="col-auto img-container position-relative">
+                                <img class="features-img-1" src="imgs\chessboard.png" alt="chessboard">
+                                <img class="features-img-2" src="imgs\features-1.png" alt="features">
+                            </div>
+                            <div class="col">
+                                <h2 class="black">Yoshua Bengio</h2>
+                                <h3 class="orange">Founder and Scientific Director Mila, Quebec Artificial Intelligence Institute</h3>
+                                <p class="small-txt">Yoshua Bengio is a full professor in the Department of Computer Science and Operations Research at Université de Montreal, as well as the founder and scientific director of Mila and scientific director of IVADO.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 py-2 d-none">
-                    <div class="row px-2">
-                        <div class="col-auto img-container position-relative">
-                            <img class="features-img-1" src="imgs\chessboard.png" alt="chessboard">
-                            <img class="features-img-2" src="imgs\features-3.png" alt="features">
-                        </div>
-                        <div class="col">
-                            <h2 class="black">Yann LeCun</h2>
-                            <h3 class="orange">VP and Chief AI Scientist, Facebook | Silver Professor, New York University</h3>
-                            <p class="small-txt">Yann LeCun is Director of AI Research at Facebook, and Silver Professor of Dara Science, Computer Science, Neural Science, and Electrical Engineering at New York University</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 py-2 d-none">
-                    <div class="row px-2">
-                        <div class="col-auto img-container position-relative">
-                            <img class="features-img-1" src="imgs\chessboard.png" alt="chessboard">
-                            <img class="features-img-2" src="imgs\features-4.png" alt="features">
-                        </div>
-                        <div class="col">
-                            <h2 class="black">Daphne Koller</h2>
-                            <h3 class="orange">Founder/CEO, Insitro | Co-founder, Coursera | Adjunct Professor CS & Pathology, Stanford</h3>
-                            <p class="small-txt">Daphne Koller is CEO and Founder of Insitro, a machine-learning enabled drug discovery company. She was a Stanford CS Professor, co-founder of Coursera and Engageli, one of TIME Magazine’s 100 influential people, and a MacArthur Fellow.</p>
+                    <div class="col-12 col-md-6 py-2">
+                        <div class="row px-2">
+                            <div class="col-auto img-container position-relative">
+                                <img class="features-img-1" src="imgs\chessboard.png" alt="chessboard">
+                                <img class="features-img-2" src="imgs\features-2.png" alt="features">
+                            </div>
+                            <div class="col">
+                                <h2 class="black">Geoffrey Hinton</h2>
+                                <h3 class="orange">Emeritus Professor, University of Toronto | VP and Engineering Fellow, Google</h3>
+                                <p class="small-txt">Geoffrey Hinton is a VP engineering fellow at Google and chief scientific adviser at the Vector Institute.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 py-2 d-none">
-                    <div class="row px-2">
-                        <div class="col-auto img-container position-relative">
-                            <img class="features-img-1" src="imgs\chessboard.png" alt="chessboard">
-                            <img class="features-img-2" src="imgs\features-5.png" alt="features">
-                        </div>
-                        <div class="col">
-                            <h2 class="black">Bill Dally</h2>
-                            <h3 class="orange">Chief Scientist & SVP Research, NVIDIA</h3>
-                            <p class="small-txt">Bill Dally joined NVIDIA in January 2009 as chief scientist, after spending 12 years at Stanford University in California, where he chaired the computer science department.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 py-2 d-none">
-                    <div class="row px-2">
-                        <div class="col-auto img-container position-relative">
-                            <img class="features-img-1" src="imgs\chessboard.png" alt="chessboard">
-                            <img class="features-img-2" src="imgs\features-6.png" alt="features">
-                        </div>
-                        <div class="col">
-                            <h2 class="black">Sanja Fidler</h2>
-                            <h3 class="orange">Director of AI, NVIDIA</h3>
-                            <p class="small-txt">Sanja Fidler is an assistant professor at the Department of Computer Science, University of Toronto, which she joined in 2014. Sanja took the role of director of AI at NVIDIA in 2018, leading a research lab in Toronto.</p>
+                    <div class="col-12 col-md-6 py-2 d-none d-md-block">
+                        <div class="row px-2">
+                            <div class="col-auto img-container position-relative">
+                                <img class="features-img-1" src="imgs\chessboard.png" alt="chessboard">
+                                <img class="features-img-2" src="imgs\features-3.png" alt="features">
+                            </div>
+                            <div class="col">
+                                <h2 class="black">Yann LeCun</h2>
+                                <h3 class="orange">VP and Chief AI Scientist, Facebook | Silver Professor, New York University</h3>
+                                <p class="small-txt">Yann LeCun is Director of AI Research at Facebook, and Silver Professor of Dara Science, Computer Science, Neural Science, and Electrical Engineering at New York University</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 text-center py-3">
-                    <button type="button" class="btn btn-outline-secondary px-6">MORE <span class="orange">v</span></button>
+                    <div class="col-12 col-md-6 py-2 d-none d-md-block">
+                        <div class="row px-2">
+                            <div class="col-auto img-container position-relative">
+                                <img class="features-img-1" src="imgs\chessboard.png" alt="chessboard">
+                                <img class="features-img-2" src="imgs\features-4.png" alt="features">
+                            </div>
+                            <div class="col">
+                                <h2 class="black">Daphne Koller</h2>
+                                <h3 class="orange">Founder/CEO, Insitro | Co-founder, Coursera | Adjunct Professor CS & Pathology, Stanford</h3>
+                                <p class="small-txt">Daphne Koller is CEO and Founder of Insitro, a machine-learning enabled drug discovery company. She was a Stanford CS Professor, co-founder of Coursera and Engageli, one of TIME Magazine’s 100 influential people, and a MacArthur Fellow.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 py-2 d-none d-md-block">
+                        <div class="row px-2">
+                            <div class="col-auto img-container position-relative">
+                                <img class="features-img-1" src="imgs\chessboard.png" alt="chessboard">
+                                <img class="features-img-2" src="imgs\features-5.png" alt="features">
+                            </div>
+                            <div class="col">
+                                <h2 class="black">Bill Dally</h2>
+                                <h3 class="orange">Chief Scientist & SVP Research, NVIDIA</h3>
+                                <p class="small-txt">Bill Dally joined NVIDIA in January 2009 as chief scientist, after spending 12 years at Stanford University in California, where he chaired the computer science department.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 py-2 d-none d-md-block">
+                        <div class="row px-2">
+                            <div class="col-auto img-container position-relative">
+                                <img class="features-img-1" src="imgs\chessboard.png" alt="chessboard">
+                                <img class="features-img-2" src="imgs\features-6.png" alt="features">
+                            </div>
+                            <div class="col">
+                                <h2 class="black">Sanja Fidler</h2>
+                                <h3 class="orange">Director of AI, NVIDIA</h3>
+                                <p class="small-txt">Sanja Fidler is an assistant professor at the Department of Computer Science, University of Toronto, which she joined in 2014. Sanja took the role of director of AI at NVIDIA in 2018, leading a research lab in Toronto.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center py-3 d-block d-md-none">
+                        <button type="button" class="btn btn-outline-secondary px-6">MORE <span class="orange">v</span></button>
+                    </div>
                 </div>
             </div>
         </section>     
@@ -213,9 +273,9 @@
 <!--End Main section-->
 <!--Start footer-->
     <footer>
-        <section class="container-fluid bg-footer py-3">
+        <section class="container-fluid bg-footer py-3 d-md-flex justify-content-md-center">
 
-            <div class="container">
+            <div class="container text-md-center">
                 <div class="row">
                     <div class="col-auto">
                         <svg class="global-footer__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 407.8 1000 184.4" enable-background="new 0 407.8 1000 184.4" xml:space="preserve">
