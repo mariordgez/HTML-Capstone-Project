@@ -13,7 +13,7 @@ a {
 }
 
 .bg-topsection {
-  background-image: url("4907157.jpg");
+  background-image: url("../imgs/4907157.jpg");
   background-size: cover;
 }
 
@@ -52,7 +52,7 @@ h2 {
 }
 
 .bg-mainProgram {
-  background-image: url("background-square.JPG");
+  background-image: url("../imgs/background-square.JPG");
   background-color: #ccc;
 }
 
@@ -150,14 +150,14 @@ svg {
 }
 
 .bg-last-pic-1 {
-  background-image: url("nvidia-pic1.png");
+  background-image: url("../imgs/nvidia-pic1.png");
   background-size: cover;
   position: relative;
   height: 200px;
 }
 
 .bg-last-pic-2 {
-  background-image: url("nvidia-pic2.png");
+  background-image: url("../imgs/nvidia-pic2.png");
   background-size: cover;
   position: relative;
   height: 200px;
