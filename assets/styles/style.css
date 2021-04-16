@@ -21,6 +21,10 @@
     height: auto;
     width: 35px;
   }
+
+  .table-text {
+    font-size: 11px;
+  }
 }
 
 body {
@@ -201,4 +205,12 @@ svg {
 
 .rounded-4 {
   border-radius: 13px;
+}
+
+.borderedtable {
+  background-image: url("../imgs/border.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
 }
