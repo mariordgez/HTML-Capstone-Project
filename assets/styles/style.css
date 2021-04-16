@@ -8,6 +8,21 @@
   src: url("../fonts\Lato-Black.ttf") format("truetype");
 }
 
+@media only screen and (max-width: 460px) {
+  .mainprogram-title {
+    font-size: 100%;
+  }
+
+  .mainprogram-text {
+    font-size: 75%;
+  }
+
+  .img1 {
+    height: auto;
+    width: 35px;
+  }
+}
+
 body {
   font-family: lato, sans-serif;
 }
@@ -32,7 +47,12 @@ h1 {
 h2 {
   font-family: cocogoose, sans-serif;
   color: #ec5242;
+  font-size: 20px;
+}
+
+.smallerh1 {
   font-size: 28px;
+  font-weight: 500;
 }
 
 .bg-gray {
@@ -66,7 +86,7 @@ h2 {
 
 .img1 {
   height: auto;
-  width: 50px;
+  width: 40px;
 }
 
 .bg-darkgray {
@@ -121,7 +141,7 @@ h3 {
 }
 
 .bg-footer {
-  background-color: #414141;
+  background-color: #424242;
 }
 
 svg {
