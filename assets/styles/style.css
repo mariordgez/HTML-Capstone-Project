@@ -1,0 +1,236 @@
+@font-face {
+  font-family: cocogoose;
+  src: url("../fonts\Cocogoose Pro-trial.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: lato;
+  src: url("../fonts\Lato-Black.ttf") format("truetype");
+}
+
+@media only screen and (max-width: 460px) {
+  .mainprogram-title {
+    font-size: 100%;
+  }
+
+  .mainprogram-text {
+    font-size: 75%;
+  }
+
+  .img1 {
+    height: auto;
+    width: 35px;
+  }
+
+  .table-text {
+    font-size: 11px;
+  }
+}
+
+.table-strip {
+  background-color: #f2f2f2;
+}
+
+.table-white {
+  background-color: white;
+}
+
+body {
+  font-family: lato, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-topsection {
+  background-image: url("../imgs/4907157.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-family: cocogoose, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #dd240f;
+  color: rgba(221, 36, 15, 0.8);
+}
+
+h2 {
+  font-family: cocogoose, sans-serif;
+  color: #ec5242;
+  font-size: 20px;
+}
+
+.smallerh1 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.bg-gray {
+  background-color: #f5f5f5;
+}
+
+.black {
+  color: #272a31;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.gray {
+  color: #d3d3d3;
+}
+
+.white {
+  color: white;
+}
+
+.bg-mainProgram {
+  background-image: url("../imgs/background-square.JPG");
+  background-color: #ccc;
+}
+
+.margin-top {
+  margin-top: -15px;
+}
+
+.img1 {
+  height: auto;
+  width: 40px;
+}
+
+.bg-darkgray {
+  background: rgba(135, 136, 135, 0.3);
+}
+
+.opacity {
+  opacity: 1;
+}
+
+.btn-orange {
+  background-color: #ec5242;
+  color: white;
+}
+
+.img-container {
+  width: 150px;
+  height: 150px;
+}
+
+.features-img-1 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  z-index: 0;
+}
+
+.features-img-2 {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  z-index: 9999;
+  filter: grayscale(100%);
+}
+
+h3 {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.small-txt {
+  font-size: 0.8rem;
+}
+
+.px-6 {
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+.bg-footer {
+  background-color: #424242;
+}
+
+svg {
+  fill: white;
+  width: 75px;
+  height: auto;
+}
+
+.svg-black {
+  fill: black;
+  width: 75px;
+  height: auto;
+}
+
+.btn-border {
+  border: solid 3px #ec4252;
+}
+
+.mx-md-6 {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/* About css */
+
+.img-logo {
+  width: 70%;
+  height: auto;
+  border: 1px solid #d3d3d3;
+}
+
+.bg-last-pic-1 {
+  background-image: url("../imgs/nvidia-pic1.png");
+  background-size: cover;
+  position: relative;
+  height: 200px;
+}
+
+.bg-last-pic-2 {
+  background-image: url("../imgs/nvidia-pic2.png");
+  background-size: cover;
+  position: relative;
+  height: 200px;
+}
+
+.bg-red {
+  z-index: 9999;
+  background: rgba(255, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* TIckets css */
+
+.rounded-4 {
+  border-radius: 13px;
+}
+
+.borderedtable {
+  background-image: url("../imgs/border.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+}
+
+.margin-negative {
+  margin-top: -28px;
+}
+
+.mainprogram-link :hover {
+  border: 1px solid white;
+}
+
+.border-none :hover {
+  border: transparent;
+}
