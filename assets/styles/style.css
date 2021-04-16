@@ -1,11 +1,15 @@
 @font-face {
   font-family: cocogoose;
-  src: url("fonts\Cocogoose Pro-trial.ttf") format("truetype");
+  src: url("../fonts\Cocogoose Pro-trial.ttf") format("truetype");
 }
 
 @font-face {
   font-family: lato;
-  src: url("fonts\Lato-Black.ttf") format("truetype");
+  src: url("../fonts\Lato-Black.ttf") format("truetype");
+}
+
+body {
+  font-family: lato, sans-serif;
 }
 
 a {
@@ -26,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-family: lato, sans-serif;
+  font-family: cocogoose, sans-serif;
   color: #ec5242;
   font-size: 28px;
 }
